@@ -106,7 +106,7 @@ public class CalibrationDocumentReaderTest {
     void givenTheExampleFile_whenCallingProcessDocument_thenReturn142() throws URISyntaxException, IOException {
         // Given
         CalibrationDocumentReader instance = new CalibrationDocumentReader();
-        String anEmptyFile = "exampleFile.txt";
+        String anEmptyFile = "example-day1-part1.txt";
 
         // When
         int result = instance.processDocument(anEmptyFile);
